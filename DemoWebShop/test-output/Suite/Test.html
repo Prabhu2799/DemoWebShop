@@ -1,0 +1,269 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 01 13:03:54 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>219 seconds (219406 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.Compare_product_016()'><b>Compare_product_016</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>8</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSsortbyoption_010()'><b>BookSsortbyoption_010</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>11</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.jewellery_WishList_002()'><b>jewellery_WishList_002</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>12</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSSharetoFriend_008()'><b>BookSSharetoFriend_008</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>9</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.delete_address_014()'><b>delete_address_014</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>8</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.Re_order_011()'><b>Re_order_011</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>16</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BooksNewsLetter_014()'><b>BooksNewsLetter_014</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>8</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSAddtocompare_007()'><b>BookSAddtocompare_007</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>10</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.Password_change_019()'><b>Password_change_019</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>10</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSOPen_004()'><b>BookSOPen_004</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>8</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.Add_New_Address_012()'><b>Add_New_Address_012</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>12</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSAddtocart_006()'><b>BookSAddtocart_006</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>13</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.Check_Reward_015()'><b>Check_Reward_015</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>9</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.jewellery_Quantity_003()'><b>jewellery_Quantity_003</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>11</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.Login_002()'><b>Login_002</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>10</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.editlastname_008()'><b>editlastname_008</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>10</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.Bookdisplayoption_011()'><b>Bookdisplayoption_011</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>10</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookRemoveCart_017()'><b>BookRemoveCart_017</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>8</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.Recently_viewed_product_017()'><b>Recently_viewed_product_017</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>7</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSpriceoption_013()'><b>BookSpriceoption_013</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>11</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSvreviewvote_016()'><b>BookSvreviewvote_016</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>17</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.Appreal_Shoes_018()'><b>Appreal_Shoes_018</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>9</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.checkthe_order_detasils_009()'><b>checkthe_order_detasils_009</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>7</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSreview_015()'><b>BookSreview_015</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>33</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.jewellery_placeorder_007()'><b>jewellery_placeorder_007</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>13</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.download_the_invoice_010()'><b>download_the_invoice_010</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>10</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.RegisterTest_001()'><b>RegisterTest_001</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>8</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.jewellery_wishlisttocart_005()'><b>jewellery_wishlisttocart_005</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>11</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSRelatedProduct_009()'><b>BookSRelatedProduct_009</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>10</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.jewellery_001()'><b>jewellery_001</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>10</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.edit_address_013()'><b>edit_address_013</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>11</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSviewsoption_012()'><b>BookSviewsoption_012</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>8</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.jewellery_custmize_004()'><b>jewellery_custmize_004</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>10</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSOPen_005()'><b>BookSOPen_005</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>11</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest_02.jewellery_removefromwishlist_006()'><b>jewellery_removefromwishlist_006</b><br>Test class: TestScript.DemoWebShopTest_02</td>
+<td></td>
+<td>9</td>
+<td>TestScript.DemoWebShopTest_02@55b7a4e0</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.lOgin_003()'><b>lOgin_003</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>8</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.Logout_0019()'><b>Logout_0019</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>8</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+<tr>
+<td title='TestScript.DemoWebShopTest.BookSTojewellery_018()'><b>BookSTojewellery_018</b><br>Test class: TestScript.DemoWebShopTest</td>
+<td></td>
+<td>10</td>
+<td>TestScript.DemoWebShopTest@498d318c</td></tr>
+</table><p>
+</body>
+</html>

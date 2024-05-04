@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="38" passed="38" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-01T13:03:54 IST" name="Suite" finished-at="2024-05-01T13:07:34 IST" duration-ms="219406">
+    <groups>
+    </groups>
+    <test started-at="2024-05-01T13:03:54 IST" name="Test" finished-at="2024-05-01T13:07:34 IST" duration-ms="219406">
+      <class name="TestScript.DemoWebShopTest_02">
+        <test-method signature="Password_change_019()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:03:54 IST" name="Password_change_019" finished-at="2024-05-01T13:04:05 IST" duration-ms="10882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password_change_019 -->
+        <test-method signature="Re_order_011()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:04:05 IST" name="Re_order_011" finished-at="2024-05-01T13:04:22 IST" duration-ms="16840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Re_order_011 -->
+        <test-method signature="jewellery_WishList_002()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:04:22 IST" name="jewellery_WishList_002" finished-at="2024-05-01T13:04:34 IST" duration-ms="12306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jewellery_WishList_002 -->
+        <test-method signature="Add_New_Address_012()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:04:34 IST" name="Add_New_Address_012" finished-at="2024-05-01T13:04:47 IST" duration-ms="12502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_New_Address_012 -->
+        <test-method signature="Appreal_Shoes_018()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:04:47 IST" name="Appreal_Shoes_018" finished-at="2024-05-01T13:04:57 IST" duration-ms="9862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appreal_Shoes_018 -->
+        <test-method signature="Check_Reward_015()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:04:57 IST" name="Check_Reward_015" finished-at="2024-05-01T13:05:07 IST" duration-ms="9999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Reward_015 -->
+        <test-method signature="Compare_product_016()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:05:07 IST" name="Compare_product_016" finished-at="2024-05-01T13:05:15 IST" duration-ms="8408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Compare_product_016 -->
+        <test-method signature="Recently_viewed_product_017()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:05:15 IST" name="Recently_viewed_product_017" finished-at="2024-05-01T13:05:22 IST" duration-ms="7383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Recently_viewed_product_017 -->
+        <test-method signature="checkthe_order_detasils_009()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:05:22 IST" name="checkthe_order_detasils_009" finished-at="2024-05-01T13:05:30 IST" duration-ms="7133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkthe_order_detasils_009 -->
+        <test-method signature="delete_address_014()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:05:30 IST" name="delete_address_014" finished-at="2024-05-01T13:05:38 IST" duration-ms="8511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_address_014 -->
+        <test-method signature="download_the_invoice_010()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:05:38 IST" name="download_the_invoice_010" finished-at="2024-05-01T13:05:49 IST" duration-ms="10780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download_the_invoice_010 -->
+        <test-method signature="edit_address_013()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:05:49 IST" name="edit_address_013" finished-at="2024-05-01T13:06:01 IST" duration-ms="11933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_address_013 -->
+        <test-method signature="editlastname_008()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:06:01 IST" name="editlastname_008" finished-at="2024-05-01T13:06:11 IST" duration-ms="10288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editlastname_008 -->
+        <test-method signature="jewellery_001()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:06:11 IST" name="jewellery_001" finished-at="2024-05-01T13:06:21 IST" duration-ms="10373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jewellery_001 -->
+        <test-method signature="jewellery_Quantity_003()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:06:21 IST" name="jewellery_Quantity_003" finished-at="2024-05-01T13:06:33 IST" duration-ms="11421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jewellery_Quantity_003 -->
+        <test-method signature="jewellery_custmize_004()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:06:33 IST" name="jewellery_custmize_004" finished-at="2024-05-01T13:06:44 IST" duration-ms="10705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jewellery_custmize_004 -->
+        <test-method signature="jewellery_placeorder_007()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:06:44 IST" name="jewellery_placeorder_007" finished-at="2024-05-01T13:06:57 IST" duration-ms="13231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jewellery_placeorder_007 -->
+        <test-method signature="jewellery_removefromwishlist_006()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:06:57 IST" name="jewellery_removefromwishlist_006" finished-at="2024-05-01T13:07:06 IST" duration-ms="9184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jewellery_removefromwishlist_006 -->
+        <test-method signature="jewellery_wishlisttocart_005()[pri:0, instance:TestScript.DemoWebShopTest_02@55b7a4e0]" started-at="2024-05-01T13:07:06 IST" name="jewellery_wishlisttocart_005" finished-at="2024-05-01T13:07:17 IST" depends-on-methods="TestScript.DemoWebShopTest_02.jewellery_WishList_002" duration-ms="11306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jewellery_wishlisttocart_005 -->
+      </class> <!-- TestScript.DemoWebShopTest_02 -->
+      <class name="TestScript.DemoWebShopTest">
+        <test-method signature="BookSAddtocart_006()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:03:54 IST" name="BookSAddtocart_006" finished-at="2024-05-01T13:04:07 IST" duration-ms="13006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSAddtocart_006 -->
+        <test-method signature="BookSAddtocompare_007()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:04:07 IST" name="BookSAddtocompare_007" finished-at="2024-05-01T13:04:18 IST" duration-ms="10454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSAddtocompare_007 -->
+        <test-method signature="BookSOPen_004()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:04:18 IST" name="BookSOPen_004" finished-at="2024-05-01T13:04:27 IST" duration-ms="8859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSOPen_004 -->
+        <test-method signature="BookSOPen_005()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:04:27 IST" name="BookSOPen_005" finished-at="2024-05-01T13:04:38 IST" duration-ms="11746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSOPen_005 -->
+        <test-method signature="BookSRelatedProduct_009()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:04:38 IST" name="BookSRelatedProduct_009" finished-at="2024-05-01T13:04:49 IST" duration-ms="10506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSRelatedProduct_009 -->
+        <test-method signature="BookSSharetoFriend_008()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:04:49 IST" name="BookSSharetoFriend_008" finished-at="2024-05-01T13:04:58 IST" duration-ms="9631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSSharetoFriend_008 -->
+        <test-method signature="BookSTojewellery_018()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:04:58 IST" name="BookSTojewellery_018" finished-at="2024-05-01T13:05:09 IST" duration-ms="10099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSTojewellery_018 -->
+        <test-method signature="BookSpriceoption_013()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:05:09 IST" name="BookSpriceoption_013" finished-at="2024-05-01T13:05:20 IST" duration-ms="11561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSpriceoption_013 -->
+        <test-method signature="BookSreview_015()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:05:20 IST" name="BookSreview_015" finished-at="2024-05-01T13:05:53 IST" duration-ms="33154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSreview_015 -->
+        <test-method signature="BookSsortbyoption_010()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:05:53 IST" name="BookSsortbyoption_010" finished-at="2024-05-01T13:06:05 IST" duration-ms="11955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSsortbyoption_010 -->
+        <test-method signature="BookSviewsoption_012()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:06:05 IST" name="BookSviewsoption_012" finished-at="2024-05-01T13:06:14 IST" duration-ms="8617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSviewsoption_012 -->
+        <test-method signature="BookSvreviewvote_016()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:06:14 IST" name="BookSvreviewvote_016" finished-at="2024-05-01T13:06:32 IST" duration-ms="17748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookSvreviewvote_016 -->
+        <test-method signature="Bookdisplayoption_011()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:06:32 IST" name="Bookdisplayoption_011" finished-at="2024-05-01T13:06:42 IST" duration-ms="10258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bookdisplayoption_011 -->
+        <test-method signature="BooksNewsLetter_014()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:06:42 IST" name="BooksNewsLetter_014" finished-at="2024-05-01T13:06:50 IST" duration-ms="8039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BooksNewsLetter_014 -->
+        <test-method signature="Login_002()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:06:50 IST" name="Login_002" finished-at="2024-05-01T13:07:00 IST" duration-ms="10406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_002 -->
+        <test-method signature="Logout_0019()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:07:00 IST" name="Logout_0019" finished-at="2024-05-01T13:07:09 IST" duration-ms="8420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_0019 -->
+        <test-method signature="RegisterTest_001()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:07:09 IST" name="RegisterTest_001" finished-at="2024-05-01T13:07:17 IST" duration-ms="8310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest_001 -->
+        <test-method signature="lOgin_003()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:07:17 IST" name="lOgin_003" finished-at="2024-05-01T13:07:25 IST" duration-ms="8161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lOgin_003 -->
+        <test-method signature="BookRemoveCart_017()[pri:0, instance:TestScript.DemoWebShopTest@498d318c]" started-at="2024-05-01T13:07:25 IST" name="BookRemoveCart_017" finished-at="2024-05-01T13:07:34 IST" depends-on-methods="TestScript.DemoWebShopTest.BookSAddtocart_006" duration-ms="8401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookRemoveCart_017 -->
+      </class> <!-- TestScript.DemoWebShopTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>E:\selinum\DemoWebShop\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods,   38 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="Add_New_Address_012">Add_New_Address_012</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="Appreal_Shoes_018">Appreal_Shoes_018</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookRemoveCart_017">BookRemoveCart_017</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSAddtocart_006">BookSAddtocart_006</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSAddtocompare_007">BookSAddtocompare_007</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSOPen_004">BookSOPen_004</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSOPen_005">BookSOPen_005</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSRelatedProduct_009">BookSRelatedProduct_009</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSSharetoFriend_008">BookSSharetoFriend_008</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSTojewellery_018">BookSTojewellery_018</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSpriceoption_013">BookSpriceoption_013</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSreview_015">BookSreview_015</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSsortbyoption_010">BookSsortbyoption_010</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSviewsoption_012">BookSviewsoption_012</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BookSvreviewvote_016">BookSvreviewvote_016</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="Bookdisplayoption_011">Bookdisplayoption_011</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="BooksNewsLetter_014">BooksNewsLetter_014</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="Check_Reward_015">Check_Reward_015</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="Compare_product_016">Compare_product_016</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="Login_002">Login_002</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="Logout_0019">Logout_0019</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="Password_change_019">Password_change_019</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="Re_order_011">Re_order_011</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="Recently_viewed_product_017">Recently_viewed_product_017</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="RegisterTest_001">RegisterTest_001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="checkthe_order_detasils_009">checkthe_order_detasils_009</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="delete_address_014">delete_address_014</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="download_the_invoice_010">download_the_invoice_010</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="edit_address_013">edit_address_013</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="editlastname_008">editlastname_008</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="jewellery_001">jewellery_001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="jewellery_Quantity_003">jewellery_Quantity_003</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="jewellery_WishList_002">jewellery_WishList_002</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="jewellery_custmize_004">jewellery_custmize_004</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="jewellery_placeorder_007">jewellery_placeorder_007</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="jewellery_removefromwishlist_006">jewellery_removefromwishlist_006</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest_02" class="method navigator-link" hash-for-method="jewellery_wishlisttocart_005">jewellery_wishlisttocart_005</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestScript.DemoWebShopTest" class="method navigator-link" hash-for-method="lOgin_003">lOgin_003</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.DemoWebShopTest_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_New_Address_012">
+                  </a> <!-- Add_New_Address_012 -->
+                  <span class="method-name">Add_New_Address_012</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Appreal_Shoes_018">
+                  </a> <!-- Appreal_Shoes_018 -->
+                  <span class="method-name">Appreal_Shoes_018</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Reward_015">
+                  </a> <!-- Check_Reward_015 -->
+                  <span class="method-name">Check_Reward_015</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Compare_product_016">
+                  </a> <!-- Compare_product_016 -->
+                  <span class="method-name">Compare_product_016</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Password_change_019">
+                  </a> <!-- Password_change_019 -->
+                  <span class="method-name">Password_change_019</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Re_order_011">
+                  </a> <!-- Re_order_011 -->
+                  <span class="method-name">Re_order_011</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Recently_viewed_product_017">
+                  </a> <!-- Recently_viewed_product_017 -->
+                  <span class="method-name">Recently_viewed_product_017</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkthe_order_detasils_009">
+                  </a> <!-- checkthe_order_detasils_009 -->
+                  <span class="method-name">checkthe_order_detasils_009</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delete_address_014">
+                  </a> <!-- delete_address_014 -->
+                  <span class="method-name">delete_address_014</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="download_the_invoice_010">
+                  </a> <!-- download_the_invoice_010 -->
+                  <span class="method-name">download_the_invoice_010</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edit_address_013">
+                  </a> <!-- edit_address_013 -->
+                  <span class="method-name">edit_address_013</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editlastname_008">
+                  </a> <!-- editlastname_008 -->
+                  <span class="method-name">editlastname_008</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jewellery_001">
+                  </a> <!-- jewellery_001 -->
+                  <span class="method-name">jewellery_001</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jewellery_Quantity_003">
+                  </a> <!-- jewellery_Quantity_003 -->
+                  <span class="method-name">jewellery_Quantity_003</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jewellery_WishList_002">
+                  </a> <!-- jewellery_WishList_002 -->
+                  <span class="method-name">jewellery_WishList_002</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jewellery_custmize_004">
+                  </a> <!-- jewellery_custmize_004 -->
+                  <span class="method-name">jewellery_custmize_004</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jewellery_placeorder_007">
+                  </a> <!-- jewellery_placeorder_007 -->
+                  <span class="method-name">jewellery_placeorder_007</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jewellery_removefromwishlist_006">
+                  </a> <!-- jewellery_removefromwishlist_006 -->
+                  <span class="method-name">jewellery_removefromwishlist_006</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jewellery_wishlisttocart_005">
+                  </a> <!-- jewellery_wishlisttocart_005 -->
+                  <span class="method-name">jewellery_wishlisttocart_005</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.DemoWebShopTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookRemoveCart_017">
+                  </a> <!-- BookRemoveCart_017 -->
+                  <span class="method-name">BookRemoveCart_017</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSAddtocart_006">
+                  </a> <!-- BookSAddtocart_006 -->
+                  <span class="method-name">BookSAddtocart_006</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSAddtocompare_007">
+                  </a> <!-- BookSAddtocompare_007 -->
+                  <span class="method-name">BookSAddtocompare_007</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSOPen_004">
+                  </a> <!-- BookSOPen_004 -->
+                  <span class="method-name">BookSOPen_004</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSOPen_005">
+                  </a> <!-- BookSOPen_005 -->
+                  <span class="method-name">BookSOPen_005</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSRelatedProduct_009">
+                  </a> <!-- BookSRelatedProduct_009 -->
+                  <span class="method-name">BookSRelatedProduct_009</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSSharetoFriend_008">
+                  </a> <!-- BookSSharetoFriend_008 -->
+                  <span class="method-name">BookSSharetoFriend_008</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSTojewellery_018">
+                  </a> <!-- BookSTojewellery_018 -->
+                  <span class="method-name">BookSTojewellery_018</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSpriceoption_013">
+                  </a> <!-- BookSpriceoption_013 -->
+                  <span class="method-name">BookSpriceoption_013</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSreview_015">
+                  </a> <!-- BookSreview_015 -->
+                  <span class="method-name">BookSreview_015</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSsortbyoption_010">
+                  </a> <!-- BookSsortbyoption_010 -->
+                  <span class="method-name">BookSsortbyoption_010</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSviewsoption_012">
+                  </a> <!-- BookSviewsoption_012 -->
+                  <span class="method-name">BookSviewsoption_012</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookSvreviewvote_016">
+                  </a> <!-- BookSvreviewvote_016 -->
+                  <span class="method-name">BookSvreviewvote_016</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Bookdisplayoption_011">
+                  </a> <!-- Bookdisplayoption_011 -->
+                  <span class="method-name">Bookdisplayoption_011</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BooksNewsLetter_014">
+                  </a> <!-- BooksNewsLetter_014 -->
+                  <span class="method-name">BooksNewsLetter_014</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_002">
+                  </a> <!-- Login_002 -->
+                  <span class="method-name">Login_002</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout_0019">
+                  </a> <!-- Logout_0019 -->
+                  <span class="method-name">Logout_0019</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterTest_001">
+                  </a> <!-- RegisterTest_001 -->
+                  <span class="method-name">RegisterTest_001</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lOgin_003">
+                  </a> <!-- lOgin_003 -->
+                  <span class="method-name">lOgin_003</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\selinum\DemoWebShop\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestScript.DemoWebShopTest_02&quot;/&gt;
+      &lt;class name=&quot;TestScript.DemoWebShopTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'BookSreview_015')
+data.setCell(0, 2, 'TestScript.DemoWebShopTest')
+data.setCell(0, 3, 33154);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BookSvreviewvote_016')
+data.setCell(1, 2, 'TestScript.DemoWebShopTest')
+data.setCell(1, 3, 17748);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Re_order_011')
+data.setCell(2, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(2, 3, 16840);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'jewellery_placeorder_007')
+data.setCell(3, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(3, 3, 13231);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'BookSAddtocart_006')
+data.setCell(4, 2, 'TestScript.DemoWebShopTest')
+data.setCell(4, 3, 13006);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Add_New_Address_012')
+data.setCell(5, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(5, 3, 12502);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'jewellery_WishList_002')
+data.setCell(6, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(6, 3, 12306);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'BookSsortbyoption_010')
+data.setCell(7, 2, 'TestScript.DemoWebShopTest')
+data.setCell(7, 3, 11955);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'edit_address_013')
+data.setCell(8, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(8, 3, 11933);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'BookSOPen_005')
+data.setCell(9, 2, 'TestScript.DemoWebShopTest')
+data.setCell(9, 3, 11746);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'BookSpriceoption_013')
+data.setCell(10, 2, 'TestScript.DemoWebShopTest')
+data.setCell(10, 3, 11561);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'jewellery_Quantity_003')
+data.setCell(11, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(11, 3, 11421);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'jewellery_wishlisttocart_005')
+data.setCell(12, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(12, 3, 11306);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Password_change_019')
+data.setCell(13, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(13, 3, 10882);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'download_the_invoice_010')
+data.setCell(14, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(14, 3, 10780);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'jewellery_custmize_004')
+data.setCell(15, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(15, 3, 10705);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'BookSRelatedProduct_009')
+data.setCell(16, 2, 'TestScript.DemoWebShopTest')
+data.setCell(16, 3, 10506);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'BookSAddtocompare_007')
+data.setCell(17, 2, 'TestScript.DemoWebShopTest')
+data.setCell(17, 3, 10454);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Login_002')
+data.setCell(18, 2, 'TestScript.DemoWebShopTest')
+data.setCell(18, 3, 10406);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'jewellery_001')
+data.setCell(19, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(19, 3, 10373);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'editlastname_008')
+data.setCell(20, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(20, 3, 10288);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Bookdisplayoption_011')
+data.setCell(21, 2, 'TestScript.DemoWebShopTest')
+data.setCell(21, 3, 10258);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'BookSTojewellery_018')
+data.setCell(22, 2, 'TestScript.DemoWebShopTest')
+data.setCell(22, 3, 10099);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Check_Reward_015')
+data.setCell(23, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(23, 3, 9999);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Appreal_Shoes_018')
+data.setCell(24, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(24, 3, 9862);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'BookSSharetoFriend_008')
+data.setCell(25, 2, 'TestScript.DemoWebShopTest')
+data.setCell(25, 3, 9631);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'jewellery_removefromwishlist_006')
+data.setCell(26, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(26, 3, 9184);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'BookSOPen_004')
+data.setCell(27, 2, 'TestScript.DemoWebShopTest')
+data.setCell(27, 3, 8859);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'BookSviewsoption_012')
+data.setCell(28, 2, 'TestScript.DemoWebShopTest')
+data.setCell(28, 3, 8617);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'delete_address_014')
+data.setCell(29, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(29, 3, 8511);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Logout_0019')
+data.setCell(30, 2, 'TestScript.DemoWebShopTest')
+data.setCell(30, 3, 8420);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Compare_product_016')
+data.setCell(31, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(31, 3, 8408);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'BookRemoveCart_017')
+data.setCell(32, 2, 'TestScript.DemoWebShopTest')
+data.setCell(32, 3, 8401);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'RegisterTest_001')
+data.setCell(33, 2, 'TestScript.DemoWebShopTest')
+data.setCell(33, 3, 8310);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'lOgin_003')
+data.setCell(34, 2, 'TestScript.DemoWebShopTest')
+data.setCell(34, 3, 8161);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'BooksNewsLetter_014')
+data.setCell(35, 2, 'TestScript.DemoWebShopTest')
+data.setCell(35, 3, 8039);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Recently_viewed_product_017')
+data.setCell(36, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(36, 3, 7383);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'checkthe_order_detasils_009')
+data.setCell(37, 2, 'TestScript.DemoWebShopTest_02')
+data.setCell(37, 3, 7133);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Password_change_019</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSAddtocart_006</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Re_order_011</span>
+                <span class="method-start">10887 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSAddtocompare_007</span>
+                <span class="method-start">13009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BookSOPen_004</span>
+                <span class="method-start">23466 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jewellery_WishList_002</span>
+                <span class="method-start">27731 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSOPen_005</span>
+                <span class="method-start">32328 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Add_New_Address_012</span>
+                <span class="method-start">40041 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSRelatedProduct_009</span>
+                <span class="method-start">44078 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Appreal_Shoes_018</span>
+                <span class="method-start">52545 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSSharetoFriend_008</span>
+                <span class="method-start">54587 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Check_Reward_015</span>
+                <span class="method-start">62410 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSTojewellery_018</span>
+                <span class="method-start">64221 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Compare_product_016</span>
+                <span class="method-start">72412 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSpriceoption_013</span>
+                <span class="method-start">74323 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Recently_viewed_product_017</span>
+                <span class="method-start">80824 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSreview_015</span>
+                <span class="method-start">85888 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkthe_order_detasils_009</span>
+                <span class="method-start">88209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">delete_address_014</span>
+                <span class="method-start">95345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">download_the_invoice_010</span>
+                <span class="method-start">103859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">edit_address_013</span>
+                <span class="method-start">114643 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSsortbyoption_010</span>
+                <span class="method-start">119044 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">editlastname_008</span>
+                <span class="method-start">126578 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSviewsoption_012</span>
+                <span class="method-start">131000 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jewellery_001</span>
+                <span class="method-start">136870 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BookSvreviewvote_016</span>
+                <span class="method-start">139618 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jewellery_Quantity_003</span>
+                <span class="method-start">147244 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Bookdisplayoption_011</span>
+                <span class="method-start">157369 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jewellery_custmize_004</span>
+                <span class="method-start">158667 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BooksNewsLetter_014</span>
+                <span class="method-start">167628 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jewellery_placeorder_007</span>
+                <span class="method-start">169375 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login_002</span>
+                <span class="method-start">175670 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jewellery_removefromwishlist_006</span>
+                <span class="method-start">182609 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Logout_0019</span>
+                <span class="method-start">186077 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jewellery_wishlisttocart_005</span>
+                <span class="method-start">191798 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.DemoWebShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterTest_001</span>
+                <span class="method-start">194498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lOgin_003</span>
+                <span class="method-start">202809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BookRemoveCart_017</span>
+                <span class="method-start">210972 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
